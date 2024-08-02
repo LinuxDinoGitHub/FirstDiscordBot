@@ -12,7 +12,7 @@ module.exports = client => {
                 const command = require(`../../commands/${folder}/${file}`);
                 commands.set(command);
                 commandArray.push(command.data.toJSON());
-                console.log(`Command: ${command.data.name} has been triggered`);
+                console.log(`Command: ${command.data.name} has been hamdled`);
             }
         }
     };
